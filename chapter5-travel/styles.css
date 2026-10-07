@@ -97,3 +97,12 @@ nav a {
 nav a:hover {
     text-decoration: rgb(184, 181, 217) wavy underline;
 }
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'French Script MT', cursive;
+    font-size: 1ch;
+    font-style: oblique;
+}
