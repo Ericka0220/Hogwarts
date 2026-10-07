@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #E0c9A6;
 }
 .header {
     background-image: url(../Images/167603_Harry_Potter__Hogwarts__Castle_11x14__Art_Print.webp);
@@ -38,4 +39,61 @@ body {
     color: white;
     font-family: 'French Script MT', cursive;
     font-size: 2ch;
+}
+div.img {
+    text-align: center;
+    margin: 0 20px 20px 20px;
+}
+section {
+    padding: 20px;
+    margin-left: 20px;
+}
+section li::marker {
+    content: "♥ ";
+}
+.street {
+    text-align: center;
+    margin: 0 20px 20px 20px;
+}
+.activities {
+    padding: 20px;
+    margin-left: 20px;
+    display: flex;
+    gap: 100px;
+}
+.fonts div {
+    font-family: 'French Script MT', cursive;
+    font-size: 2ch;
+    font-weight: bold;
+    font-style: oblique;
+    line-height: 1.5;
+    text-align: left;
+    text-decoration: none;
+    letter-spacing: normal;
+}
+.fonts-2 div {
+    font-family: 'French Script MT', cursive;
+    font-size: 2ch;
+    font-weight: bold;
+    font-style: oblique;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: double underline;
+    letter-spacing: normal;
+}
+.highlight {
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: 'French Script MT', cursive;
+    font-size: 2ch;
+    margin: 0 15px;
+}
+nav a:hover {
+    text-decoration: rgb(184, 181, 217) wavy underline;
 }
