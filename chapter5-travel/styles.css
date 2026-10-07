@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    background-image: url(../Images/167603_Harry_Potter__Hogwarts__Castle_11x14__Art_Print.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'French Script MT', cursive;
+    text-align: center;
+    padding: 50px 0;
+}
+.header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+.header h2 {
+    font-size: 2ch;
+    margin: 10px 0 0 0;
+}
+.header-nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 20px 0;
+}
+.header-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.header-nav ul li {
+    margin: 0 30px;
+    color: white;
+    font-family: 'French Script MT', cursive;
+    font-size: 2ch;
+}
